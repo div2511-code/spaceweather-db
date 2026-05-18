@@ -119,17 +119,6 @@ sw link   build
 sw chain                         --from-flare <flr_id>
 ```
 
-## Roadmap
-
-- [x] DONKI flares ingestion + schema + CLI scaffold
-- [x] DONKI CMEs and geomagnetic storms ingestion
-- [x] `event_links` builder - directional flare -> CME, 24 to 96 h CME -> storm window
-- [x] `chain` command - flare -> CME -> storm tree query
-- [ ] NOAA SWPC solar wind ingestion + C parser for the fixed-width feeds
-- [ ] Smoke tests for ingestors and the link builder
-- [ ] GitHub Actions CI
-- [ ] Matplotlib timeline plot
-
 ## Limitations
 
 - `event_links` is heuristic, not curated. Time-window matching over-links
