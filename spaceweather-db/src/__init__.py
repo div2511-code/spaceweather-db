@@ -1,0 +1,1 @@
+"""spaceweather-db package."""
